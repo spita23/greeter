@@ -1,13 +1,15 @@
+package is.hi.bst4.hbv202g.ass3.backend;
+
 public class Greeter {
 
-    private Language language = Language.ENGLISH;
+    private is.hi.bst4.hbv202g.ass3.backend.Language language = is.hi.bst4.hbv202g.ass3.backend.Language.ENGLISH;
 
     public void setEnglish() {
-        language = Language.ENGLISH;
+        language = is.hi.bst4.hbv202g.ass3.backend.Language.ENGLISH;
     }
 
     public void setGerman() {
-        language = Language.GERMAN;
+        language = is.hi.bst4.hbv202g.ass3.backend.Language.GERMAN;
     }
 
     public String greet() {
